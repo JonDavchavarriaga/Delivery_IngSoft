@@ -432,11 +432,11 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                           ),
                           child: FlutterFlowPlacePicker(
                             iOSGoogleMapsApiKey:
-                                'AIzaSyBXDqUaZTQSq_dkkLqmlbMki9OkvyGxmFw',
+                                '',
                             androidGoogleMapsApiKey:
-                                'AIzaSyAQQjkIf4pJU1mzLcg3zdf9YUk56RLDU0U',
+                                '',
                             webGoogleMapsApiKey:
-                                'AIzaSyBx4xwjU9bG-btzlolOh-lzxWSG_IML61g',
+                                '',
                             onSelect: (place) async {
                               setState(() => _model.placePickerValue = place);
                             },
